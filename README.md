@@ -56,13 +56,13 @@ Edit the configuration variables at the top of `plex_export_to_letterboxd_and_tr
 
 ### Option 1: One Command
 ```bash
-cd /Users/timh/plex_export_to_letterboxd && python3 plex_export_to_letterboxd_and_trakt.py
+cd /path/to/plex_export_to_letterboxd && python3 plex_export_to_letterboxd_and_trakt.py
 ```
 
 ### Option 2: Step by Step
 ```bash
 # Navigate to the directory
-cd /Users/timh/plex_export_to_letterboxd
+cd /path/to/plex_export_to_letterboxd
 
 # Run the script
 python3 plex_export_to_letterboxd_and_trakt.py
