@@ -1,6 +1,6 @@
 # Export Plex Ratings and Watched Status for Letterboxd & Trakt, plus Plex User Review (for Letterboxd only)
 
-This script converts a CSV export from Webtools-NG (Plex library export) into formats compatible with Letterboxd and Trakt imports, and then (for Letterboxd only) adds your user review from Plex. 
+This script converts a CSV export from Webtools-NG (Plex library export) into formats compatible with Letterboxd and Trakt imports, and then (for Letterboxd only) adds your Plex review for each movie. 
 
 ## Overview
 
