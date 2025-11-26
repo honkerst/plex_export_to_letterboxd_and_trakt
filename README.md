@@ -77,9 +77,7 @@ To enable review fetching, you need to configure your Plex server connection:
 - **Default:** `""` (empty string)
 - **Purpose:** Your Plex server API token (X-Plex-Token)
 - **How to get it:**
-  1. Open Plex Web in your browser
-  2. The token appears in the URL: `https://app.plex.tv/desktop?X-Plex-Token=xxxxxxxxxxxxx`
-  3. Or follow: https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/
+  1. Follow: https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/
 - **Usage:** Paste your token as a string, e.g., `"tav2wvdVwrUXx6gJyt_P"`
 
 #### `PLEX_COMMUNITY_TOKEN` (Line 36)
