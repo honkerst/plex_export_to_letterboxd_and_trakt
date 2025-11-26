@@ -1,4 +1,4 @@
-# Plex Export to Letterboxd & Trakt Converter
+# Plex Export Ratings and Watched Status to Letterboxd & Trakt
 
 This script converts a CSV export from Webtools-NG (Plex library export) into formats compatible with Letterboxd and Trakt imports.
 
