@@ -18,8 +18,8 @@ FIX_WEBTOOLS_DATE_OFFSET = True  # Set to False to disable the fix
 # You can specify multiple URLs separated by commas - the script will try each one
 # Get your Plex token from: https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/
 PLEX_SERVER_URLS = [
-    "http://192.168.0.103:32400",  # Private IP
-    "https://86.31.103.18:32400",  # Public IP (from your network settings)
+    "http://192.168.0.103:32400",  # Private IP of your Plex server
+    "https://86.31.161.42:32400",  # Public IP (from your network settings)
 ]  # The script will try each URL until one works
 PLEX_TOKEN = "tav2wvdVwrUXx6gJyt_P"  # Your Plex server API token (X-Plex-Token)
 
