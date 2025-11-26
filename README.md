@@ -69,7 +69,7 @@ To enable review fetching, you need to configure your Plex server connection:
     ```python
     PLEX_SERVER_URLS = [
         "http://192.168.0.103:32400",  # Private IP (tried first)
-        "https://86.31.161.42:32400",  # Public IP (from your network settings)
+        "https://123.45.56.67.89:32400",  # Public IP (from your network settings)
     ]
     ```
 
