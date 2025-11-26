@@ -1,4 +1,4 @@
-# Export Plex Ratings and Watched Status for Letterboxd & Trakt, plus Plex Review (for Letterboxd only)
+# Export Plex Ratings and Watched Status for Letterboxd & Trakt, plus Plex User Review (for Letterboxd only)
 
 This script converts a CSV export from Webtools-NG (Plex library export) into formats compatible with Letterboxd and Trakt imports.
 
@@ -8,7 +8,7 @@ The script processes your Plex movie library export and creates filtered, format
 - Filters movies to only include those with ratings
 - Filters movies by how recently they were watched (configurable)
 - Fixes a known Webtools-NG date offset bug (dates are one month early)
-- **Fetches user reviews from Plex (if available) and adds them to Letterboxd output**
+- Fetches user reviews from Plex (if available) and adds them to Letterboxd output (Trakt does not support importing reviews).
 - Formats data into Letterboxd-compatible format
 - Formats data into Trakt-compatible format
 
