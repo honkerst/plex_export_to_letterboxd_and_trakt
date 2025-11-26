@@ -167,13 +167,3 @@ After running the script, you'll have two CSV files ready to import:
 ### No output file created
 - Check that at least some movies passed both filters (have ratings AND are within date range)
 - Review the skip counts in the output to see why movies were excluded
-
-## Future Enhancements
-
-Potential improvements you might want to add:
-- Command-line arguments for configuration
-- Support for different date formats
-- Option to include movies without ratings
-- Custom output file naming
-- Progress bar for large libraries
-
