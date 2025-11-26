@@ -138,14 +138,6 @@ Check processed_movies_letterboxd.csv and processed_movies_trakt.csv for results
 
 After running the script, you'll have two CSV files ready to import:
 
-### Importing to Letterboxd
-
-1. Sign in to your Letterboxd account
-2. Go to [https://letterboxd.com/import/](https://letterboxd.com/import/)
-3. Upload the `processed_movies_letterboxd.csv` file
-4. Follow the on-screen instructions to complete the import
-5. NB There is no 'undo' for imports. Double check your CSV.
-
 ### Importing to Trakt
 
 1. Sign in to your Trakt account
@@ -153,6 +145,14 @@ After running the script, you'll have two CSV files ready to import:
 3. Upload the `processed_movies_trakt.csv` file
 5. Follow the on-screen instructions to complete the import
 6. NB: Trakt can undo imports.
+
+### Importing to Letterboxd
+
+1. Sign in to your Letterboxd account
+2. Go to [https://letterboxd.com/import/](https://letterboxd.com/import/)
+3. Upload the `processed_movies_letterboxd.csv` file
+4. Follow the on-screen instructions to complete the import
+5. NB Letterboxd has no 'undo' for imports. Double check your CSV!
 
 **Note:** Both platforms will match your movies using the TMDB ID, so make sure your original export includes valid TMDB IDs for accurate matching.
 
