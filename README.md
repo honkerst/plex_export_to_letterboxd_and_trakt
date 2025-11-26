@@ -245,6 +245,24 @@ After running the script, you'll have two CSV files ready to import:
 
 **Note:** Both platforms will match your movies using the TMDB ID, so make sure your original export includes valid TMDB IDs for accurate matching.
 
+## TLDR - Quick Start
+
+Here's the quickest way to get started:
+
+1. **Set up Webtools-NG export**: In Webtools-NG, click Export -> Custom Levels, select 'Movies', then define a new Custom Level. Add the following fields:
+   - `Title`
+   - `Year`
+   - `TMDB ID`
+   - `User Rating`
+   - `Last Viewed At`
+2. **Export from Webtools-NG**: Run the export on a **Movie library** (not a playlist), and for 'Export Level' select the Custom Level you defined in step 1.
+3. **Save the CSV**: Put the resulting `movies.csv` file in the same folder as `plex_export_to_letterboxd_and_trakt.py`
+4. **Add your Plex reviews:** To include your Plex reviews in the Letterboxd export, configure `PLEX_SERVER_URLS` and `PLEX_TOKEN` in the script (see Configuration section above).
+4. **Run the script**: Execute `python3 plex_export_to_letterboxd_and_trakt.py`
+5. **Import to Letterboxd**: Upload `processed_movies_letterboxd.csv` to [Letterboxd Import](https://letterboxd.com/import/)
+6. **Import to Trakt**: Upload `processed_movies_trakt.csv` to [Trakt Import](https://trakt.tv/settings/data#import)
+
+
 ## Troubleshooting
 
 ### "FileNotFoundError: movies.csv"
