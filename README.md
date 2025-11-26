@@ -144,6 +144,7 @@ After running the script, you'll have two CSV files ready to import:
 2. Go to [https://letterboxd.com/import/](https://letterboxd.com/import/)
 3. Upload the `processed_movies_letterboxd.csv` file
 4. Follow the on-screen instructions to complete the import
+5. NB There is no 'undo' for imports. Double check your CSV.
 
 ### Importing to Trakt
 
@@ -151,6 +152,7 @@ After running the script, you'll have two CSV files ready to import:
 2. Go to [https://trakt.tv/settings/data#import](https://trakt.tv/settings/data#import)
 3. Upload the `processed_movies_trakt.csv` file
 5. Follow the on-screen instructions to complete the import
+6. NB: Trakt can undo imports.
 
 **Note:** Both platforms will match your movies using the TMDB ID, so make sure your original export includes valid TMDB IDs for accurate matching.
 
