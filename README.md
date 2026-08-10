@@ -156,11 +156,11 @@ The script applies two filters:
 
 ## Webtools-NG Date Bug Fix
 
-Webtools-NG has a known bug where exported dates are one month early. For example:
+This addresses a known bug in some versions of Webtools-NG caused by Plex returning Unix timestamps in milliseconds but Webtools-NG reading them as seconds. For example:
 - Movie watched on **November 26, 2024** → Exported as **October 26, 2024**
 - Movie watched on **January 15, 2024** → Exported as **December 15, 2023**
 
-The script automatically fixes this by adding one month to all dates. The fix handles:
+The script addresses this by adding one month to all dates. The fix handles:
 - Year boundaries (December → January of next year)
 - Month-end edge cases (e.g., Jan 31 → Feb 28/29)
 
