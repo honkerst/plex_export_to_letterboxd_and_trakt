@@ -46,12 +46,12 @@ Edit the configuration variables at the top of `plex_export_to_letterboxd_and_tr
   - `30` = Last month only
   - `0` = Disable date filtering (include all dates)
 
-### `FIX_WEBTOOLS_DATE_OFFSET` (Line 12)
+### `FIX_WEBTOOLS_DATE_OFFSET` (Line 14)
 - **Default:** `True`
-- **Purpose:** Fixes known bug in some versions of Webtools-NG caused by Plex returning Unix timestamps in milliseconds but Webtools-NG reading them as seconds 
+- **Purpose:** Fixes a known WebTools-NG export bug where "Last Viewed at" months use JavaScript's 0-based month index (0–11) instead of 1–12. Exported dates are therefore one calendar month early (e.g. November → October; December → November; January → month `00`). See [WebTools-NG issue #710](https://github.com/WebTools-NG/WebTools-NG/issues/710).
 - **Usage:** 
-  - `True` = Automatically add one month to all dates (recommended)
-  - `False` = Use dates as exported (if bug is fixed in future Webtools-NG versions)
+  - `True` = Add one calendar month to all dates (increments the month; December wraps to January of the next year; day is clamped for shorter months). 
+  - `False` = Use dates as exported (if the bug is fixed in your WebTools-NG version)
 
 ### Plex Review Fetching Configuration
 
